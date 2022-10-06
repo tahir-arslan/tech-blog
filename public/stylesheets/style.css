@@ -1,108 +1,69 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: #231010;
+    font-family: Roboto;
 }
 
-body {
-    background-color: #D9EAD3;
+.card-margins {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 25px;
+    margin-bottom: 30px;
 }
 
-a {
-    text-decoration: none;
+.header-text {
+    font-size: 25px;
 }
 
-button {
-    border: none;
-    outline: none;
-    cursor: pointer;
+.header-big {
+    font-size: 40px;
+    font-weight: bolder;
+    font-style: oblique;
 }
 
-.header .nav button {
-    color: #D9EAD3;
-    background-color: #231010;
+.card-title {
+    font-weight: bolder;
 }
 
-.header {
-    background-color: #231010;
-    padding: 25px 50px;
-    margin-bottom: 10px;
+.lists {
+    list-style: none;
 }
 
-.nav-link {
-    color: #D9EAD3;
+.form-layout {
+    margin-left: 50px;
+    margin-top: 50px;
+    font-weight: bold;
+    color: aliceblue;
 }
 
-.header h1 {
-    border: 1px solid #D9EAD3;
-    border-radius: 10px;
-    box-shadow: 5px 5px rgba(211, 211, 211, 0.719);
-    background-color: #D9EAD3;
-    display: inline-block;
-    margin-top: 10px;
-    padding: 5px 10px;
+.form-p {
+    color:black;
 }
 
-article {
-    margin: 10px 25px;
-    border: 2px solid #231010;
-    border-radius: 7px;
+.form-layout button {
+    margin-left: 125px;
 }
 
-.post-header {
-    background-color: #231010;
-    color: lightgrey;
+.dashboard {
+    font-size: 40px;
+    font-weight: bold;    
 }
 
-.post-header:hover {
-    color: #D9EAD3;
+.edit-link {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 75px;
 }
 
-.content {
-    background-color: #D9EAD3;
+.create-post {
+    margin-top: 20px;
+    margin-left: 50px;
+    font-style: oblique;
 }
 
-.form-border {
-    margin: 10px 25px;
-    border: 2px solid #231010;
-    border-radius: 7px;
-    padding: 10px;
+.create-post-button {
+    margin-left: 115px;
+    margin-top: 25px;
 }
 
-.btn-login, .btn-signup, .btn-submit-comment, .btn-create-post, .btn-add-post, .btn-update-post, .btn-delete-post {
-    border-radius: 7px;
-    background-color: grey;
-    padding: 5px;
-    color: #fff;
-}
-
-.add-post {
-    margin: 5px 80px;
-}
-
-.comments {
-    margin: 10px 0;
-    border: 2px solid #231010;
-    border-radius: 7px;
-    }
-
-.comment-form {
-    margin: 5px 20px;
-}
-
-.textarea {
-    height: 100px;
-}
-
-.comment-submit {
-    margin: 0 10px;
-}
-
-.text {
-    background-color: #D9EAD3;
-}
-
-.edit-post {
-    padding: 10px;
+.add-comment-button {
+    margin-left: 45px;
 }

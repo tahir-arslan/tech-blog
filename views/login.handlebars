@@ -1,23 +1,26 @@
-<section class="form-border vstack gap-3">
-	<div class="header-form">
-		<h2>Login</h2>
+<form class="col-sm-6 form-layout login-form">
+	<div class="form-group row">
+		<label for="username-signup" class="col-sm-2 col-form-label bg-secondary">Username</label>
+		<div class="col-sm-10">
+			<input type="text" class="form-control" id="username-login" placeholder="username">
+		</div>
 	</div>
-	<form class="login-form vstack gap-3">
-		<div>
-		<label for="username-login" class="form-label">Username</label>
-		<input type="text" class="form-control" id="username-login" />
+	<div class="form-group row">
+		<label for="password-signup" class="col-sm-2 col-form-label bg-secondary">password</label>
+		<div class="col-sm-10">
+			<input type="text" class="form-control" id="password-login" placeholder="password">
 		</div>
-		<div>
-		<label for="password-login" class="form-label">Password</label>
-		<input type="password" class="form-control" id="password-login" />
-		</div>
-		<div>
-		<button class="btn-login" type="submit">Login</button>
-		</div>
-	</form>
-	<div class="signup-instead">
-		<p>Don't have an account? <a href="/signup">Sign up</a></p>
 	</div>
-</section>
-
+	<div class="form-group row">
+		<div class="col-sm-10">
+			<button type="submit" class="btn btn-primary">Login</button>
+		</div>
+	</div>
+	<div class="form-group row">
+		<div class="col-sm-10">
+			<label for="signup-button" class="text-secondary">If you don't have an account, you can sign up here</label>
+			<a href="/signup" class="badge badge-primary">Sign Up</a>
+		</div>
+	</div>
+</form>
 <script src="/javascript/login.js"></script>

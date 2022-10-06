@@ -1,14 +1,11 @@
 {{> post-info post}}
 {{> comments post.comments}}
 {{#if loggedIn}}
-<form class="comment-form vstack gap-3">
-	<div class="row ">
-		<h3>Comment</h3>
-		<textarea class="textarea" name="comment-body"></textarea>
-	</div>
-	<div class="comment-submit row justify-content-center">
-		<button class="btn-submit-comment" type="submit">Submit</button>
-	</div>
+<form class="col-sm-6 form-layout comment-form">
+  	<div class="col-sm-10">
+    	<textarea class="form-control col-sm-10" name="comment-body"></textarea>
+    </div>
+	<button class="btn btn-primary d-flex add-comment-button" type="submit">add comment</button>
 </form>
 {{/if}}
 {{#if loggedIn}}
