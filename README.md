@@ -4,6 +4,12 @@
 ## Description
 This Tech Blog allows users to log in and post tech related content. As a first tme user, you are able to create a new login to sign in. Once signed in, the user is able to see all posts made by other users, comment on those posts, as well as create their own post. The user is also able to edit and delete their posts as well. If the user is not logged in, access to certain functionalities will be restricted and different html will be generated thanks to Handlebars.js.
 
+If the application has been seeded (see [Usage](#usage) below), then you are able to log in using the following:
+```
+username: revolvingcabin
+password: password123
+```
+
 Created using Node.js, Express.js, mySQL, and Handlebars.js 
 
 The deployed website is accessible as well through [Heroku](https://tech-blog-4321.herokuapp.com/).
