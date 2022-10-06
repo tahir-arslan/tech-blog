@@ -5,8 +5,13 @@
   "main": "server.js",
   "start": "node server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "seed": "node seeds/index.js"
+    "test": "react-scripts test --env=jsdom",
+    "seed": "node seeds/index.js",
+    "dev": "react-scripts start",
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -27,6 +32,7 @@
     "express-handlebars": "^6.0.6",
     "express-session": "^1.17.3",
     "mysql2": "^2.3.3",
-    "sequelize": "^6.23.2"
+    "sequelize": "^6.23.2",
+    "serve": "^14.0.1"
   }
 }
