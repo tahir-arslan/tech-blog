@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #231010;
+}
+
+body {
+    background-color: #D9EAD3;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.header .nav button {
+    color: #D9EAD3;
+    background-color: #231010;
+}
+
+.header {
+    background-color: #231010;
+    padding: 25px 50px;
+    margin-bottom: 10px;
+}
+
+.nav-link {
+    color: #D9EAD3;
+}
+
+.header h1 {
+    border: 1px solid #D9EAD3;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(211, 211, 211, 0.719);
+    background-color: #D9EAD3;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+
+article {
+    margin: 10px 25px;
+    border: 2px solid #231010;
+    border-radius: 7px;
+}
+
+.post-header {
+    background-color: #231010;
+    color: lightgrey;
+}
+
+.post-header:hover {
+    color: #D9EAD3;
+}
+
+.content {
+    background-color: #D9EAD3;
+}
+
+.form-border {
+    margin: 10px 25px;
+    border: 2px solid #231010;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.btn-login, .btn-signup, .btn-submit-comment, .btn-create-post, .btn-add-post, .btn-update-post, .btn-delete-post {
+    border-radius: 7px;
+    background-color: grey;
+    padding: 5px;
+    color: #fff;
+}
+
+.add-post {
+    margin: 5px 80px;
+}
+
+.comments {
+    margin: 10px 0;
+    border: 2px solid #231010;
+    border-radius: 7px;
+    }
+
+.comment-form {
+    margin: 5px 20px;
+}
+
+.textarea {
+    height: 100px;
+}
+
+.comment-submit {
+    margin: 0 10px;
+}
+
+.text {
+    background-color: #D9EAD3;
+}
+
+.edit-post {
+    padding: 10px;
+}

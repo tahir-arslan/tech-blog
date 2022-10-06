@@ -1,0 +1,15 @@
+<section>
+	<h2>Your Dashboard</h2>
+	{{#if posts.length}}
+	<section>
+		{{#each posts as |post|}}
+		<article>
+			{{> dashboard-post post}}
+		</article>
+		{{/each}}
+	</section>
+	{{/if}}
+	<div class="add-post">
+		<a href="/dashboard/create" class="edit-link row justify-content-center"><button class="btn-add-post">+ New Post</button></a>
+	</div>
+</section>

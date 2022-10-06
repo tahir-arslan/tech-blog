@@ -1,0 +1,15 @@
+<div class="list-group">
+	<a href="/post/{{id}}" class="post-header list-group-item">
+		<div class="d-flex w-100 justify-content-between">
+		<h5 class="mb-1 title">{{title}}</h5>
+		<small>
+			Posted by {{user.username}} on {{format_date created_at}}
+			|
+			{{comments.length}} {{format_plural "comment" comments.length}}
+		</small>
+		</div>
+	</a>
+	<div class="content list-group-item">
+		<p class="mb-1">{{content}}</p>
+	</div>
+</div>

@@ -70,7 +70,7 @@ router.get('/edit/:id', withAuth, (req, res) => {
         console.log(err);
         res.status(500).json(err);
     });
-})
+});
 
 router.get('/create', withAuth, (req, res) => {
     res.render('create-post', { loggedIn: true });

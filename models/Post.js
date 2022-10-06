@@ -32,7 +32,7 @@ class Post extends Model {
             });
         });
     }
-}
+};
 
 Post.init(
     {
@@ -48,7 +48,10 @@ Post.init(
         },
         body: {
             type: DataTypes.TEXT,
-            allowNull: false
+            allowNull: false,
+            validate: {
+                len: [1]
+            }
         },
         user_id: {
             type: DataTypes.INTEGER,
