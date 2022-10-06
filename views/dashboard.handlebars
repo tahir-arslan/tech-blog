@@ -1,7 +1,7 @@
 {{#if posts.length}}
 <section>
 	<div class="d-flex justify-content-left">
-     	<a href="/create-post" class="btn btn-primary create-post-button">Create Post</a>
+     	<a href="/create-post" class="btn btn-secondarycolor create-post-button">Create Post</a>
 	</div>
     <div class="col-lg-12">
       	<h2 class="col-lg-12 col-form-label dashboard text-center">Your Posts</h2> 
@@ -10,7 +10,7 @@
 		{{#each posts as |post|}}
 		<li class="lists">
 			{{> edit_post-info post}}
-			<a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit post</a>
+			<a href="/dashboard/edit/{{post.id}}" class="edit-link ">Edit post</a>
 		</li>
 		{{/each}}
 	</ul>
@@ -19,7 +19,7 @@
 <h2 class="col-lg-12 col-form-label dashboard text-center">You don't have any posts yet</h2>
 <div class="col-lg-12 col-form-label dashboard text-center">
 	<div class="d-flex justify-content-left">
-		<a href="/create-post" class="btn btn-primary create-post-button">Create Post</a>
+		<a href="/create-post" class="btn btn-secondarycolor create-post-button">Create Post</a>
 	</div>
 </div>
 {{/if}}

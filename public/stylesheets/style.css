@@ -1,5 +1,30 @@
 * {
-    font-family: Roboto;
+    font-family: 'Raleway', sans-serif;
+}
+
+.bg-maincolor {
+    background-color: #520c0c;
+}
+
+.btn-secondarycolor, .bg-secondarycolor {
+    background-color: #d36969;
+    color: white;
+}
+
+.bg-tertiarycolor {
+    background-color: #b99393;
+}
+
+.display-font-size {
+    color: rgb(36, 91, 139);
+}
+
+a {
+    font-size: 1rem;
+}
+
+a:hover {
+    color:rgb(7, 36, 61);
 }
 
 .card-margins {
@@ -16,7 +41,11 @@
 .header-big {
     font-size: 40px;
     font-weight: bolder;
-    font-style: oblique;
+}
+
+.dashboard-text {
+    padding: 24px;
+    font-size:  1.3rem;
 }
 
 .card-title {
@@ -48,9 +77,14 @@
 }
 
 .edit-link {
-    font-size: 25px;
+    font-size: 1rem;
     font-weight: bold;
     margin-left: 75px;
+    border-left: 1px solid #DFDFDF;
+    border-bottom: 1px solid #DFDFDF;
+    border-right: 1px solid #DFDFDF;
+    border-radius: 3px;
+    padding: 5px;
 }
 
 .create-post {
