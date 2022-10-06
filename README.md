@@ -9,7 +9,7 @@ Created using Node.js, Express.js, mySQL, and Handlebars.js
 The deployed website is accessible as well through [Heroku](https://tech-blog-4321.herokuapp.com/).
 
 #### Screenshot
-![Screenshot](/public/assets/images/screenshot.png)
+![Screenshot](/public/images/screenshot.png)
 
 ## Table of Contents
 1. [Installation](#installation)
