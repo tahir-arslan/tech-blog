@@ -6,10 +6,10 @@ This Tech Blog allows users to log in and post tech related content. As a first 
 
 Created using Node.js, Express.js, mySQL, and Handlebars.js 
 
-The deployed website is accessible as well through ![Heroku]( https://tech-blog-4321.herokuapp.com/).
+The deployed website is accessible as well through [Heroku](https://tech-blog-4321.herokuapp.com/).
 
 #### Screenshot
-[Screenshot](/public/assets/images/screenshot.png)
+![Screenshot](/public/assets/images/screenshot.png)
 
 ## Table of Contents
 1. [Installation](#installation)
